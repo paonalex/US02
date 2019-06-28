@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>27/06/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="recycling" label="recycling" />
+      <node id="city" label="city" />
+      <node id="government" label="government" />
+      <node id="landfill" label="landfill" />
+      <node id="energy" label="energy" />
+      <node id="management" label="management" />
+      <node id="department" label="department" />
+      <node id="container" label="container" />
+      <node id="material" label="material" />
+      <node id="service" label="service" />
+      <node id="council" label="council" />
+      <node id="year" label="year" />
+      <node id="director" label="director" />
+      <node id="state" label="state" />
+      <node id="business" label="business" />
+      <node id="waste" label="waste" />
+      <node id="solution" label="solution" />
+      <node id="facility" label="facility" />
+      <node id="company" label="company" />
+      <node id="part" label="part" />
+      <node id="transportation" label="transportation" />
+      <node id="equipment" label="equipment" />
+      <node id="market" label="market" />
+      <node id="food" label="food" />
+      <node id="industry" label="industry" />
+      <node id="sale" label="sale" />
+      <node id="leader" label="leader" />
+      <node id="president" label="president" />
+      <node id="county" label="county" />
+      <node id="plan" label="plan" />
+      <node id="plastic" label="plastic" />
+      <node id="product" label="product" />
+      <node id="tire" label="tire" />
+      <node id="technology" label="technology" />
+      <node id="center" label="center" />
+      <node id="truck" label="truck" />
+      <node id="bill" label="bill" />
+      <node id="announces" label="announces" />
+      <node id="program" label="program" />
+      <node id="customer" label="customer" />
+      <node id="system" label="system" />
+    </nodes>
+    <edges>
+      <edge id="0" source="recycling" target="part" weight="0.29819363355636597" />
+      <edge id="1" source="recycling" target="program" weight="0.20060288906097412" />
+      <edge id="2" source="recycling" target="center" weight="0.1395353525876999" />
+      <edge id="3" source="recycling" target="industry" weight="0.13962270319461823" />
+      <edge id="4" source="recycling" target="business" weight="0.10430062562227249" />
+      <edge id="5" source="recycling" target="system" weight="0.09825816750526428" />
+      <edge id="6" source="recycling" target="sale" weight="0.09378544986248016" />
+      <edge id="7" source="recycling" target="year" weight="0.08828407526016235" />
+      <edge id="8" source="recycling" target="state" weight="0.07216813415288925" />
+      <edge id="9" source="recycling" target="product" weight="0.0657067745923996" />
+      <edge id="10" source="recycling" target="leader" weight="0.03754190355539322" />
+      <edge id="11" source="recycling" target="plan" weight="0.22874650359153748" />
+      <edge id="12" source="recycling" target="equipment" weight="0.19033244252204895" />
+      <edge id="13" source="recycling" target="solution" weight="0.18982748687267303" />
+      <edge id="14" source="recycling" target="market" weight="0.17513403296470642" />
+      <edge id="15" source="recycling" target="material" weight="0.1538858711719513" />
+      <edge id="16" source="recycling" target="announces" weight="0.13843777775764465" />
+      <edge id="17" source="recycling" target="truck" weight="0.12009286880493164" />
+      <edge id="18" source="recycling" target="department" weight="0.11441829800605774" />
+      <edge id="19" source="recycling" target="energy" weight="0.1118725910782814" />
+      <edge id="20" source="city" target="year" weight="0.22438980638980865" />
+      <edge id="21" source="city" target="part" weight="0.21550726890563965" />
+      <edge id="22" source="city" target="plan" weight="0.22874650359153748" />
+      <edge id="23" source="city" target="product" weight="0.1796364188194275" />
+      <edge id="24" source="city" target="program" weight="0.16253900527954102" />
+      <edge id="25" source="city" target="service" weight="0.1600176841020584" />
+      <edge id="26" source="city" target="center" weight="0.1395353525876999" />
+      <edge id="27" source="city" target="council" weight="0.13683661818504333" />
+      <edge id="28" source="city" target="industry" weight="0.1335720717906952" />
+      <edge id="29" source="city" target="plastic" weight="0.11917337775230408" />
+      <edge id="30" source="city" target="director" weight="0.09570592641830444" />
+      <edge id="31" source="city" target="waste" weight="0.040091872215270996" />
+      <edge id="32" source="city" target="tire" weight="0.1124565601348877" />
+      <edge id="33" source="city" target="equipment" weight="0.19033244252204895" />
+      <edge id="34" source="city" target="solution" weight="0.18982748687267303" />
+      <edge id="35" source="city" target="market" weight="0.17513403296470642" />
+      <edge id="36" source="city" target="material" weight="0.1538858711719513" />
+      <edge id="37" source="city" target="announces" weight="0.13843777775764465" />
+      <edge id="38" source="city" target="truck" weight="0.12009286880493164" />
+      <edge id="39" source="city" target="department" weight="0.11441829800605774" />
+      <edge id="40" source="city" target="energy" weight="0.1118725910782814" />
+      <edge id="41" source="government" target="transportation" weight="0.2702639102935791" />
+      <edge id="42" source="government" target="bill" weight="0.21727384626865387" />
+      <edge id="43" source="government" target="equipment" weight="0.19033244252204895" />
+      <edge id="44" source="government" target="service" weight="0.13766038417816162" />
+      <edge id="45" source="government" target="department" weight="0.11441829800605774" />
+      <edge id="46" source="government" target="facility" weight="0.11696341633796692" />
+      <edge id="47" source="government" target="sale" weight="0.09826338291168213" />
+      <edge id="48" source="government" target="technology" weight="0.09383324533700943" />
+      <edge id="49" source="government" target="landfill" weight="0.09170018881559372" />
+      <edge id="50" source="government" target="food" weight="0.08967505395412445" />
+      <edge id="51" source="government" target="plan" weight="0.22874650359153748" />
+      <edge id="52" source="government" target="solution" weight="0.18982748687267303" />
+      <edge id="53" source="government" target="market" weight="0.17513403296470642" />
+      <edge id="54" source="government" target="material" weight="0.1538858711719513" />
+      <edge id="55" source="government" target="center" weight="0.1395353525876999" />
+      <edge id="56" source="government" target="announces" weight="0.13843777775764465" />
+      <edge id="57" source="government" target="truck" weight="0.12009286880493164" />
+      <edge id="58" source="government" target="energy" weight="0.1118725910782814" />
+      <edge id="59" source="landfill" target="service" weight="0.14599061012268066" />
+      <edge id="60" source="landfill" target="bill" weight="0.11917772889137268" />
+      <edge id="61" source="landfill" target="year" weight="0.09728358685970306" />
+      <edge id="62" source="landfill" target="market" weight="0.17513403296470642" />
+      <edge id="63" source="landfill" target="department" weight="0.11441829800605774" />
+      <edge id="64" source="landfill" target="center" weight="0.1395353525876999" />
+      <edge id="65" source="landfill" target="state" weight="0.055913493037223816" />
+      <edge id="66" source="landfill" target="county" weight="0.05054780840873718" />
+      <edge id="67" source="landfill" target="food" weight="0.045196160674095154" />
+      <edge id="68" source="landfill" target="plan" weight="0.22874650359153748" />
+      <edge id="69" source="landfill" target="equipment" weight="0.19033244252204895" />
+      <edge id="70" source="landfill" target="solution" weight="0.18982748687267303" />
+      <edge id="71" source="landfill" target="material" weight="0.1538858711719513" />
+      <edge id="72" source="landfill" target="announces" weight="0.13843777775764465" />
+      <edge id="73" source="landfill" target="truck" weight="0.12009286880493164" />
+      <edge id="74" source="landfill" target="energy" weight="0.1118725910782814" />
+      <edge id="75" source="energy" target="business" weight="0.1118725910782814" />
+      <edge id="76" source="energy" target="market" weight="0.1118725910782814" />
+      <edge id="77" source="energy" target="announces" weight="0.1118725910782814" />
+      <edge id="78" source="energy" target="system" weight="0.1118725910782814" />
+      <edge id="79" source="energy" target="sale" weight="0.1118725910782814" />
+      <edge id="80" source="energy" target="customer" weight="0.1118725910782814" />
+      <edge id="81" source="energy" target="equipment" weight="0.1118725910782814" />
+      <edge id="82" source="energy" target="company" weight="0.1118725910782814" />
+      <edge id="83" source="energy" target="center" weight="0.1118725910782814" />
+      <edge id="84" source="energy" target="president" weight="0.1118725910782814" />
+      <edge id="85" source="energy" target="plan" weight="0.1118725910782814" />
+      <edge id="86" source="energy" target="solution" weight="0.1118725910782814" />
+      <edge id="87" source="energy" target="material" weight="0.1118725910782814" />
+      <edge id="88" source="energy" target="truck" weight="0.1118725910782814" />
+      <edge id="89" source="energy" target="department" weight="0.1118725910782814" />
+      <edge id="90" source="energy" target="energy" weight="0.1118725910782814" />
+      <edge id="91" source="energy" target="management" weight="0.1118725910782814" />
+      <edge id="92" source="energy" target="container" weight="0.1118725910782814" />
+      <edge id="93" source="energy" target="service" weight="0.1118725910782814" />
+      <edge id="94" source="energy" target="council" weight="0.1118725910782814" />
+      <edge id="95" source="energy" target="year" weight="0.1118725910782814" />
+      <edge id="96" source="energy" target="director" weight="0.1118725910782814" />
+      <edge id="97" source="energy" target="state" weight="0.1118725910782814" />
+      <edge id="98" source="energy" target="waste" weight="0.1118725910782814" />
+      <edge id="99" source="energy" target="facility" weight="0.1118725910782814" />
+      <edge id="100" source="energy" target="part" weight="0.1118725910782814" />
+      <edge id="101" source="energy" target="transportation" weight="0.1118725910782814" />
+      <edge id="102" source="energy" target="food" weight="0.1118725910782814" />
+      <edge id="103" source="energy" target="industry" weight="0.1118725910782814" />
+      <edge id="104" source="energy" target="leader" weight="0.1118725910782814" />
+      <edge id="105" source="energy" target="county" weight="0.1118725910782814" />
+      <edge id="106" source="energy" target="plastic" weight="0.1118725910782814" />
+      <edge id="107" source="energy" target="product" weight="0.1118725910782814" />
+      <edge id="108" source="energy" target="tire" weight="0.1118725910782814" />
+      <edge id="109" source="energy" target="technology" weight="0.1118725910782814" />
+      <edge id="110" source="energy" target="bill" weight="0.1118725910782814" />
+      <edge id="111" source="energy" target="program" weight="0.1118725910782814" />
+      <edge id="112" source="management" target="food" weight="0.19030845165252686" />
+      <edge id="113" source="management" target="president" weight="0.13622847199440002" />
+      <edge id="114" source="management" target="customer" weight="0.1151856854557991" />
+      <edge id="115" source="management" target="part" weight="0.10949010401964188" />
+      <edge id="116" source="management" target="equipment" weight="0.19033244252204895" />
+      <edge id="117" source="management" target="county" weight="0.10362227261066437" />
+      <edge id="118" source="management" target="industry" weight="0.10220977663993835" />
+      <edge id="119" source="management" target="material" weight="0.1538858711719513" />
+      <edge id="120" source="management" target="announces" weight="0.13843777775764465" />
+      <edge id="121" source="management" target="transportation" weight="0.07491618394851685" />
+      <edge id="122" source="management" target="container" weight="0.05377070605754852" />
+      <edge id="123" source="management" target="state" weight="0.07163603603839874" />
+      <edge id="124" source="management" target="leader" weight="0.026040025055408478" />
+      <edge id="125" source="management" target="plan" weight="0.22874650359153748" />
+      <edge id="126" source="management" target="solution" weight="0.18982748687267303" />
+      <edge id="127" source="management" target="market" weight="0.17513403296470642" />
+      <edge id="128" source="management" target="center" weight="0.1395353525876999" />
+      <edge id="129" source="management" target="truck" weight="0.12009286880493164" />
+      <edge id="130" source="management" target="department" weight="0.11441829800605774" />
+      <edge id="131" source="department" target="food" weight="0.11441829800605774" />
+      <edge id="132" source="department" target="bill" weight="0.11441829800605774" />
+      <edge id="133" source="department" target="sale" weight="0.11441829800605774" />
+      <edge id="134" source="department" target="system" weight="0.11441829800605774" />
+      <edge id="135" source="department" target="plastic" weight="0.11441829800605774" />
+      <edge id="136" source="department" target="waste" weight="0.11441829800605774" />
+      <edge id="137" source="department" target="technology" weight="0.11441829800605774" />
+      <edge id="138" source="department" target="part" weight="0.11441829800605774" />
+      <edge id="139" source="department" target="plan" weight="0.11441829800605774" />
+      <edge id="140" source="department" target="equipment" weight="0.11441829800605774" />
+      <edge id="141" source="department" target="solution" weight="0.11441829800605774" />
+      <edge id="142" source="department" target="market" weight="0.11441829800605774" />
+      <edge id="143" source="department" target="material" weight="0.11441829800605774" />
+      <edge id="144" source="department" target="center" weight="0.11441829800605774" />
+      <edge id="145" source="department" target="announces" weight="0.11441829800605774" />
+      <edge id="146" source="department" target="truck" weight="0.11441829800605774" />
+      <edge id="147" source="department" target="department" weight="0.11441829800605774" />
+      <edge id="148" source="department" target="container" weight="0.11441829800605774" />
+      <edge id="149" source="department" target="service" weight="0.11441829800605774" />
+      <edge id="150" source="department" target="council" weight="0.11441829800605774" />
+      <edge id="151" source="department" target="year" weight="0.11441829800605774" />
+      <edge id="152" source="department" target="director" weight="0.11441829800605774" />
+      <edge id="153" source="department" target="state" weight="0.11441829800605774" />
+      <edge id="154" source="department" target="business" weight="0.11441829800605774" />
+      <edge id="155" source="department" target="facility" weight="0.11441829800605774" />
+      <edge id="156" source="department" target="company" weight="0.11441829800605774" />
+      <edge id="157" source="department" target="transportation" weight="0.11441829800605774" />
+      <edge id="158" source="department" target="industry" weight="0.11441829800605774" />
+      <edge id="159" source="department" target="leader" weight="0.11441829800605774" />
+      <edge id="160" source="department" target="president" weight="0.11441829800605774" />
+      <edge id="161" source="department" target="county" weight="0.11441829800605774" />
+      <edge id="162" source="department" target="product" weight="0.11441829800605774" />
+      <edge id="163" source="department" target="tire" weight="0.11441829800605774" />
+      <edge id="164" source="department" target="program" weight="0.11441829800605774" />
+      <edge id="165" source="department" target="customer" weight="0.11441829800605774" />
+      <edge id="166" source="container" target="technology" weight="0.1599903404712677" />
+      <edge id="167" source="container" target="tire" weight="0.15260478854179382" />
+      <edge id="168" source="container" target="truck" weight="0.12009286880493164" />
+      <edge id="169" source="container" target="county" weight="0.12427982687950134" />
+      <edge id="170" source="container" target="leader" weight="0.10112875699996948" />
+      <edge id="171" source="container" target="announces" weight="0.13843777775764465" />
+      <edge id="172" source="container" target="president" weight="0.0981045588850975" />
+      <edge id="173" source="container" target="solution" weight="0.18982748687267303" />
+      <edge id="174" source="container" target="service" weight="0.0738358348608017" />
+      <edge id="175" source="container" target="waste" weight="0.026338793337345123" />
+      <edge id="176" source="container" target="facility" weight="0.0505540557205677" />
+      <edge id="177" source="container" target="plan" weight="0.22874650359153748" />
+      <edge id="178" source="container" target="equipment" weight="0.19033244252204895" />
+      <edge id="179" source="container" target="market" weight="0.17513403296470642" />
+      <edge id="180" source="container" target="material" weight="0.1538858711719513" />
+      <edge id="181" source="container" target="center" weight="0.1395353525876999" />
+      <edge id="182" source="material" target="food" weight="0.1538858711719513" />
+      <edge id="183" source="material" target="solution" weight="0.1538858711719513" />
+      <edge id="184" source="material" target="business" weight="0.1538858711719513" />
+      <edge id="185" source="material" target="truck" weight="0.1538858711719513" />
+      <edge id="186" source="material" target="system" weight="0.1538858711719513" />
+      <edge id="187" source="material" target="president" weight="0.1538858711719513" />
+      <edge id="188" source="material" target="announces" weight="0.1538858711719513" />
+      <edge id="189" source="material" target="service" weight="0.1538858711719513" />
+      <edge id="190" source="material" target="bill" weight="0.1538858711719513" />
+      <edge id="191" source="material" target="customer" weight="0.1538858711719513" />
+      <edge id="192" source="material" target="director" weight="0.1538858711719513" />
+      <edge id="193" source="material" target="state" weight="0.1538858711719513" />
+      <edge id="194" source="material" target="plan" weight="0.1538858711719513" />
+      <edge id="195" source="material" target="equipment" weight="0.1538858711719513" />
+      <edge id="196" source="material" target="market" weight="0.1538858711719513" />
+      <edge id="197" source="material" target="material" weight="0.1538858711719513" />
+      <edge id="198" source="material" target="center" weight="0.1538858711719513" />
+      <edge id="199" source="material" target="council" weight="0.1538858711719513" />
+      <edge id="200" source="material" target="year" weight="0.1538858711719513" />
+      <edge id="201" source="material" target="waste" weight="0.1538858711719513" />
+      <edge id="202" source="material" target="facility" weight="0.1538858711719513" />
+      <edge id="203" source="material" target="company" weight="0.1538858711719513" />
+      <edge id="204" source="material" target="part" weight="0.1538858711719513" />
+      <edge id="205" source="material" target="transportation" weight="0.1538858711719513" />
+      <edge id="206" source="material" target="industry" weight="0.1538858711719513" />
+      <edge id="207" source="material" target="sale" weight="0.1538858711719513" />
+      <edge id="208" source="material" target="leader" weight="0.1538858711719513" />
+      <edge id="209" source="material" target="county" weight="0.1538858711719513" />
+      <edge id="210" source="material" target="plastic" weight="0.1538858711719513" />
+      <edge id="211" source="material" target="product" weight="0.1538858711719513" />
+      <edge id="212" source="material" target="tire" weight="0.1538858711719513" />
+      <edge id="213" source="material" target="technology" weight="0.1538858711719513" />
+      <edge id="214" source="material" target="program" weight="0.1538858711719513" />
+      <edge id="215" source="service" target="program" weight="0.17872214317321777" />
+      <edge id="216" source="service" target="food" weight="0.13655412197113037" />
+      <edge id="217" source="service" target="plastic" weight="0.12034779042005539" />
+      <edge id="218" source="service" target="solution" weight="0.18982748687267303" />
+      <edge id="219" source="service" target="sale" weight="0.10900692641735077" />
+      <edge id="220" source="service" target="center" weight="0.1395353525876999" />
+      <edge id="221" source="service" target="council" weight="0.0528295673429966" />
+      <edge id="222" source="service" target="waste" weight="0.06432721018791199" />
+      <edge id="223" source="service" target="plan" weight="0.22874650359153748" />
+      <edge id="224" source="service" target="equipment" weight="0.19033244252204895" />
+      <edge id="225" source="service" target="market" weight="0.17513403296470642" />
+      <edge id="226" source="service" target="announces" weight="0.13843777775764465" />
+      <edge id="227" source="service" target="truck" weight="0.12009286880493164" />
+      <edge id="228" source="council" target="program" weight="0.1268455982208252" />
+      <edge id="229" source="council" target="leader" weight="0.12370983511209488" />
+      <edge id="230" source="council" target="company" weight="0.08876259624958038" />
+      <edge id="231" source="council" target="food" weight="0.07442481070756912" />
+      <edge id="232" source="council" target="center" weight="0.1395353525876999" />
+      <edge id="233" source="council" target="director" weight="0.06516122072935104" />
+      <edge id="234" source="council" target="truck" weight="0.12009286880493164" />
+      <edge id="235" source="council" target="president" weight="0.04914262145757675" />
+      <edge id="236" source="council" target="plan" weight="0.22874650359153748" />
+      <edge id="237" source="council" target="equipment" weight="0.19033244252204895" />
+      <edge id="238" source="council" target="solution" weight="0.18982748687267303" />
+      <edge id="239" source="council" target="market" weight="0.17513403296470642" />
+      <edge id="240" source="council" target="announces" weight="0.13843777775764465" />
+      <edge id="241" source="year" target="business" weight="0.15733984112739563" />
+      <edge id="242" source="year" target="center" weight="0.1395353525876999" />
+      <edge id="243" source="year" target="plastic" weight="0.14528435468673706" />
+      <edge id="244" source="year" target="tire" weight="0.1219097226858139" />
+      <edge id="245" source="year" target="part" weight="0.11355999112129211" />
+      <edge id="246" source="year" target="industry" weight="0.1121884137392044" />
+      <edge id="247" source="year" target="market" weight="0.17513403296470642" />
+      <edge id="248" source="year" target="waste" weight="0.024199064821004868" />
+      <edge id="249" source="year" target="plan" weight="0.22874650359153748" />
+      <edge id="250" source="year" target="equipment" weight="0.19033244252204895" />
+      <edge id="251" source="year" target="solution" weight="0.18982748687267303" />
+      <edge id="252" source="year" target="announces" weight="0.13843777775764465" />
+      <edge id="253" source="year" target="truck" weight="0.12009286880493164" />
+      <edge id="254" source="director" target="part" weight="0.17194995284080505" />
+      <edge id="255" source="director" target="sale" weight="0.16771221160888672" />
+      <edge id="256" source="director" target="truck" weight="0.12009286880493164" />
+      <edge id="257" source="director" target="product" weight="0.15026482939720154" />
+      <edge id="258" source="director" target="transportation" weight="0.1479036509990692" />
+      <edge id="259" source="director" target="equipment" weight="0.19033244252204895" />
+      <edge id="260" source="director" target="solution" weight="0.18982748687267303" />
+      <edge id="261" source="director" target="customer" weight="0.11253518611192703" />
+      <edge id="262" source="director" target="facility" weight="0.07799063622951508" />
+      <edge id="263" source="director" target="leader" weight="0.026414990425109863" />
+      <edge id="264" source="director" target="plan" weight="0.22874650359153748" />
+      <edge id="265" source="director" target="market" weight="0.17513403296470642" />
+      <edge id="266" source="director" target="center" weight="0.1395353525876999" />
+      <edge id="267" source="director" target="announces" weight="0.13843777775764465" />
+      <edge id="268" source="state" target="company" weight="0.30166929960250854" />
+      <edge id="269" source="state" target="leader" weight="0.18219950795173645" />
+      <edge id="270" source="state" target="equipment" weight="0.19033244252204895" />
+      <edge id="271" source="state" target="part" weight="0.13631607592105865" />
+      <edge id="272" source="state" target="bill" weight="0.11521162837743759" />
+      <edge id="273" source="state" target="county" weight="0.08871635794639587" />
+      <edge id="274" source="state" target="market" weight="0.17513403296470642" />
+      <edge id="275" source="state" target="product" weight="0.03519180417060852" />
+      <edge id="276" source="state" target="plan" weight="0.22874650359153748" />
+      <edge id="277" source="state" target="solution" weight="0.18982748687267303" />
+      <edge id="278" source="state" target="center" weight="0.1395353525876999" />
+      <edge id="279" source="state" target="announces" weight="0.13843777775764465" />
+      <edge id="280" source="state" target="truck" weight="0.12009286880493164" />
+      <edge id="281" source="business" target="technology" weight="0.20696987211704254" />
+      <edge id="282" source="business" target="truck" weight="0.12009286880493164" />
+      <edge id="283" source="business" target="market" weight="0.17513403296470642" />
+      <edge id="284" source="business" target="president" weight="0.13535460829734802" />
+      <edge id="285" source="business" target="announces" weight="0.13843777775764465" />
+      <edge id="286" source="business" target="customer" weight="0.10030809789896011" />
+      <edge id="287" source="business" target="program" weight="0.09041199088096619" />
+      <edge id="288" source="business" target="plan" weight="0.22874650359153748" />
+      <edge id="289" source="business" target="equipment" weight="0.19033244252204895" />
+      <edge id="290" source="business" target="solution" weight="0.18982748687267303" />
+      <edge id="291" source="business" target="center" weight="0.1395353525876999" />
+      <edge id="292" source="waste" target="sale" weight="0.18162178993225098" />
+      <edge id="293" source="waste" target="plastic" weight="0.09244085848331451" />
+      <edge id="294" source="waste" target="center" weight="0.1395353525876999" />
+      <edge id="295" source="waste" target="equipment" weight="0.19033244252204895" />
+      <edge id="296" source="waste" target="bill" weight="0.03143443167209625" />
+      <edge id="297" source="waste" target="plan" weight="0.22874650359153748" />
+      <edge id="298" source="waste" target="solution" weight="0.18982748687267303" />
+      <edge id="299" source="waste" target="market" weight="0.17513403296470642" />
+      <edge id="300" source="waste" target="announces" weight="0.13843777775764465" />
+      <edge id="301" source="waste" target="truck" weight="0.12009286880493164" />
+      <edge id="302" source="solution" target="system" weight="0.18982748687267303" />
+      <edge id="303" source="solution" target="county" weight="0.18982748687267303" />
+      <edge id="304" source="solution" target="announces" weight="0.18982748687267303" />
+      <edge id="305" source="solution" target="industry" weight="0.18982748687267303" />
+      <edge id="306" source="solution" target="technology" weight="0.18982748687267303" />
+      <edge id="307" source="solution" target="president" weight="0.18982748687267303" />
+      <edge id="308" source="solution" target="plan" weight="0.18982748687267303" />
+      <edge id="309" source="solution" target="equipment" weight="0.18982748687267303" />
+      <edge id="310" source="solution" target="solution" weight="0.18982748687267303" />
+      <edge id="311" source="solution" target="market" weight="0.18982748687267303" />
+      <edge id="312" source="solution" target="center" weight="0.18982748687267303" />
+      <edge id="313" source="solution" target="truck" weight="0.18982748687267303" />
+      <edge id="314" source="solution" target="facility" weight="0.18982748687267303" />
+      <edge id="315" source="solution" target="company" weight="0.18982748687267303" />
+      <edge id="316" source="solution" target="part" weight="0.18982748687267303" />
+      <edge id="317" source="solution" target="transportation" weight="0.18982748687267303" />
+      <edge id="318" source="solution" target="food" weight="0.18982748687267303" />
+      <edge id="319" source="solution" target="sale" weight="0.18982748687267303" />
+      <edge id="320" source="solution" target="leader" weight="0.18982748687267303" />
+      <edge id="321" source="solution" target="plastic" weight="0.18982748687267303" />
+      <edge id="322" source="solution" target="product" weight="0.18982748687267303" />
+      <edge id="323" source="solution" target="tire" weight="0.18982748687267303" />
+      <edge id="324" source="solution" target="bill" weight="0.18982748687267303" />
+      <edge id="325" source="solution" target="program" weight="0.18982748687267303" />
+      <edge id="326" source="solution" target="customer" weight="0.18982748687267303" />
+      <edge id="327" source="facility" target="transportation" weight="0.13678957521915436" />
+      <edge id="328" source="facility" target="truck" weight="0.12009286880493164" />
+      <edge id="329" source="facility" target="county" weight="0.12460239231586456" />
+      <edge id="330" source="facility" target="equipment" weight="0.19033244252204895" />
+      <edge id="331" source="facility" target="president" weight="0.09486701339483261" />
+      <edge id="332" source="facility" target="market" weight="0.17513403296470642" />
+      <edge id="333" source="facility" target="plan" weight="0.22874650359153748" />
+      <edge id="334" source="facility" target="center" weight="0.1395353525876999" />
+      <edge id="335" source="facility" target="announces" weight="0.13843777775764465" />
+      <edge id="336" source="company" target="bill" weight="0.19342327117919922" />
+      <edge id="337" source="company" target="announces" weight="0.13843777775764465" />
+      <edge id="338" source="company" target="plastic" weight="0.1264163851737976" />
+      <edge id="339" source="company" target="food" weight="0.12592200934886932" />
+      <edge id="340" source="company" target="industry" weight="0.10891149193048477" />
+      <edge id="341" source="company" target="center" weight="0.1395353525876999" />
+      <edge id="342" source="company" target="part" weight="0.10401929914951324" />
+      <edge id="343" source="company" target="technology" weight="0.09900296479463577" />
+      <edge id="344" source="company" target="product" weight="0.08505509793758392" />
+      <edge id="345" source="company" target="tire" weight="0.07981228828430176" />
+      <edge id="346" source="company" target="customer" weight="0.07048973441123962" />
+      <edge id="347" source="company" target="plan" weight="0.22874650359153748" />
+      <edge id="348" source="company" target="equipment" weight="0.19033244252204895" />
+      <edge id="349" source="company" target="market" weight="0.17513403296470642" />
+      <edge id="350" source="company" target="truck" weight="0.12009286880493164" />
+      <edge id="351" source="part" target="customer" weight="0.2716202437877655" />
+      <edge id="352" source="part" target="sale" weight="0.1635095328092575" />
+      <edge id="353" source="part" target="tire" weight="0.14658555388450623" />
+      <edge id="354" source="part" target="industry" weight="0.1415221393108368" />
+      <edge id="355" source="part" target="plan" weight="0.22874650359153748" />
+      <edge id="356" source="part" target="equipment" weight="0.19033244252204895" />
+      <edge id="357" source="part" target="market" weight="0.17513403296470642" />
+      <edge id="358" source="part" target="center" weight="0.1395353525876999" />
+      <edge id="359" source="part" target="announces" weight="0.13843777775764465" />
+      <edge id="360" source="part" target="truck" weight="0.12009286880493164" />
+      <edge id="361" source="transportation" target="bill" weight="0.23488925397396088" />
+      <edge id="362" source="transportation" target="equipment" weight="0.19033244252204895" />
+      <edge id="363" source="transportation" target="sale" weight="0.17950986325740814" />
+      <edge id="364" source="transportation" target="leader" weight="0.14292576909065247" />
+      <edge id="365" source="transportation" target="truck" weight="0.12009286880493164" />
+      <edge id="366" source="transportation" target="president" weight="0.10048817098140717" />
+      <edge id="367" source="transportation" target="industry" weight="0.07939106225967407" />
+      <edge id="368" source="transportation" target="plan" weight="0.22874650359153748" />
+      <edge id="369" source="transportation" target="market" weight="0.17513403296470642" />
+      <edge id="370" source="transportation" target="center" weight="0.1395353525876999" />
+      <edge id="371" source="transportation" target="announces" weight="0.13843777775764465" />
+      <edge id="372" source="equipment" target="system" weight="0.19033244252204895" />
+      <edge id="373" source="equipment" target="customer" weight="0.19033244252204895" />
+      <edge id="374" source="equipment" target="sale" weight="0.19033244252204895" />
+      <edge id="375" source="equipment" target="truck" weight="0.19033244252204895" />
+      <edge id="376" source="equipment" target="plastic" weight="0.19033244252204895" />
+      <edge id="377" source="equipment" target="announces" weight="0.19033244252204895" />
+      <edge id="378" source="equipment" target="plan" weight="0.19033244252204895" />
+      <edge id="379" source="equipment" target="equipment" weight="0.19033244252204895" />
+      <edge id="380" source="equipment" target="market" weight="0.19033244252204895" />
+      <edge id="381" source="equipment" target="center" weight="0.19033244252204895" />
+      <edge id="382" source="equipment" target="food" weight="0.19033244252204895" />
+      <edge id="383" source="equipment" target="industry" weight="0.19033244252204895" />
+      <edge id="384" source="equipment" target="leader" weight="0.19033244252204895" />
+      <edge id="385" source="equipment" target="president" weight="0.19033244252204895" />
+      <edge id="386" source="equipment" target="county" weight="0.19033244252204895" />
+      <edge id="387" source="equipment" target="product" weight="0.19033244252204895" />
+      <edge id="388" source="equipment" target="tire" weight="0.19033244252204895" />
+      <edge id="389" source="equipment" target="technology" weight="0.19033244252204895" />
+      <edge id="390" source="equipment" target="bill" weight="0.19033244252204895" />
+      <edge id="391" source="equipment" target="program" weight="0.19033244252204895" />
+      <edge id="392" source="market" target="system" weight="0.17513403296470642" />
+      <edge id="393" source="market" target="county" weight="0.17513403296470642" />
+      <edge id="394" source="market" target="center" weight="0.17513403296470642" />
+      <edge id="395" source="market" target="truck" weight="0.17513403296470642" />
+      <edge id="396" source="market" target="plan" weight="0.17513403296470642" />
+      <edge id="397" source="market" target="market" weight="0.17513403296470642" />
+      <edge id="398" source="market" target="announces" weight="0.17513403296470642" />
+      <edge id="399" source="market" target="food" weight="0.17513403296470642" />
+      <edge id="400" source="market" target="industry" weight="0.17513403296470642" />
+      <edge id="401" source="market" target="sale" weight="0.17513403296470642" />
+      <edge id="402" source="market" target="leader" weight="0.17513403296470642" />
+      <edge id="403" source="market" target="president" weight="0.17513403296470642" />
+      <edge id="404" source="market" target="plastic" weight="0.17513403296470642" />
+      <edge id="405" source="market" target="product" weight="0.17513403296470642" />
+      <edge id="406" source="market" target="tire" weight="0.17513403296470642" />
+      <edge id="407" source="market" target="technology" weight="0.17513403296470642" />
+      <edge id="408" source="market" target="bill" weight="0.17513403296470642" />
+      <edge id="409" source="market" target="program" weight="0.17513403296470642" />
+      <edge id="410" source="market" target="customer" weight="0.17513403296470642" />
+      <edge id="411" source="food" target="president" weight="0.17126524448394775" />
+      <edge id="412" source="food" target="bill" weight="0.15342962741851807" />
+      <edge id="413" source="food" target="program" weight="0.15302762389183044" />
+      <edge id="414" source="food" target="customer" weight="0.1297847330570221" />
+      <edge id="415" source="food" target="tire" weight="0.10594678670167923" />
+      <edge id="416" source="food" target="plan" weight="0.22874650359153748" />
+      <edge id="417" source="food" target="center" weight="0.1395353525876999" />
+      <edge id="418" source="food" target="announces" weight="0.13843777775764465" />
+      <edge id="419" source="food" target="truck" weight="0.12009286880493164" />
+      <edge id="420" source="industry" target="announces" weight="0.13843777775764465" />
+      <edge id="421" source="industry" target="plastic" weight="0.14073345065116882" />
+      <edge id="422" source="industry" target="county" weight="0.1280192732810974" />
+      <edge id="423" source="industry" target="sale" weight="0.10465076565742493" />
+      <edge id="424" source="industry" target="product" weight="0.048320457339286804" />
+      <edge id="425" source="industry" target="technology" weight="0.08114402741193771" />
+      <edge id="426" source="industry" target="customer" weight="0.09719875454902649" />
+      <edge id="427" source="industry" target="plan" weight="0.22874650359153748" />
+      <edge id="428" source="industry" target="center" weight="0.1395353525876999" />
+      <edge id="429" source="industry" target="truck" weight="0.12009286880493164" />
+      <edge id="430" source="sale" target="announces" weight="0.13843777775764465" />
+      <edge id="431" source="sale" target="technology" weight="0.1438860148191452" />
+      <edge id="432" source="sale" target="program" weight="0.1324872374534607" />
+      <edge id="433" source="sale" target="tire" weight="0.1289401799440384" />
+      <edge id="434" source="sale" target="plan" weight="0.22874650359153748" />
+      <edge id="435" source="sale" target="center" weight="0.1395353525876999" />
+      <edge id="436" source="sale" target="truck" weight="0.12009286880493164" />
+      <edge id="437" source="leader" target="bill" weight="0.11358119547367096" />
+      <edge id="438" source="leader" target="center" weight="0.1395353525876999" />
+      <edge id="439" source="leader" target="system" weight="0.07094021141529083" />
+      <edge id="440" source="leader" target="plan" weight="0.22874650359153748" />
+      <edge id="441" source="leader" target="announces" weight="0.13843777775764465" />
+      <edge id="442" source="leader" target="truck" weight="0.12009286880493164" />
+      <edge id="443" source="president" target="county" weight="0.1399778425693512" />
+      <edge id="444" source="president" target="technology" weight="0.12491800636053085" />
+      <edge id="445" source="president" target="plan" weight="0.22874650359153748" />
+      <edge id="446" source="president" target="center" weight="0.1395353525876999" />
+      <edge id="447" source="president" target="announces" weight="0.13843777775764465" />
+      <edge id="448" source="president" target="truck" weight="0.12009286880493164" />
+      <edge id="449" source="county" target="tire" weight="0.16639412939548492" />
+      <edge id="450" source="county" target="plastic" weight="0.12659740447998047" />
+      <edge id="451" source="county" target="plan" weight="0.22874650359153748" />
+      <edge id="452" source="county" target="product" weight="0.03194069862365723" />
+      <edge id="453" source="county" target="center" weight="0.1395353525876999" />
+      <edge id="454" source="county" target="announces" weight="0.13843777775764465" />
+      <edge id="455" source="county" target="truck" weight="0.12009286880493164" />
+      <edge id="456" source="plan" target="system" weight="0.22874650359153748" />
+      <edge id="457" source="plan" target="truck" weight="0.22874650359153748" />
+      <edge id="458" source="plan" target="bill" weight="0.22874650359153748" />
+      <edge id="459" source="plan" target="tire" weight="0.22874650359153748" />
+      <edge id="460" source="plan" target="plan" weight="0.22874650359153748" />
+      <edge id="461" source="plan" target="center" weight="0.22874650359153748" />
+      <edge id="462" source="plan" target="announces" weight="0.22874650359153748" />
+      <edge id="463" source="plan" target="plastic" weight="0.22874650359153748" />
+      <edge id="464" source="plan" target="product" weight="0.22874650359153748" />
+      <edge id="465" source="plan" target="technology" weight="0.22874650359153748" />
+      <edge id="466" source="plan" target="program" weight="0.22874650359153748" />
+      <edge id="467" source="plan" target="customer" weight="0.22874650359153748" />
+      <edge id="468" source="plastic" target="announces" weight="0.13843777775764465" />
+      <edge id="469" source="plastic" target="center" weight="0.1395353525876999" />
+      <edge id="470" source="plastic" target="truck" weight="0.12009286880493164" />
+      <edge id="471" source="product" target="program" weight="0.15962669253349304" />
+      <edge id="472" source="product" target="center" weight="0.1395353525876999" />
+      <edge id="473" source="product" target="technology" weight="0.0347466915845871" />
+      <edge id="474" source="product" target="announces" weight="0.13843777775764465" />
+      <edge id="475" source="product" target="truck" weight="0.12009286880493164" />
+      <edge id="476" source="tire" target="technology" weight="0.11399876326322556" />
+      <edge id="477" source="tire" target="center" weight="0.1395353525876999" />
+      <edge id="478" source="tire" target="announces" weight="0.13843777775764465" />
+      <edge id="479" source="tire" target="truck" weight="0.12009286880493164" />
+      <edge id="480" source="technology" target="program" weight="0.08797875046730042" />
+      <edge id="481" source="technology" target="center" weight="0.1395353525876999" />
+      <edge id="482" source="technology" target="announces" weight="0.13843777775764465" />
+      <edge id="483" source="technology" target="truck" weight="0.12009286880493164" />
+      <edge id="484" source="center" target="program" weight="0.1395353525876999" />
+      <edge id="485" source="center" target="truck" weight="0.1395353525876999" />
+      <edge id="486" source="center" target="bill" weight="0.1395353525876999" />
+      <edge id="487" source="center" target="system" weight="0.1395353525876999" />
+      <edge id="488" source="center" target="center" weight="0.1395353525876999" />
+      <edge id="489" source="center" target="announces" weight="0.1395353525876999" />
+      <edge id="490" source="center" target="customer" weight="0.1395353525876999" />
+      <edge id="491" source="truck" target="system" weight="0.12009286880493164" />
+      <edge id="492" source="truck" target="announces" weight="0.12009286880493164" />
+      <edge id="493" source="truck" target="truck" weight="0.12009286880493164" />
+      <edge id="494" source="truck" target="bill" weight="0.12009286880493164" />
+      <edge id="495" source="truck" target="program" weight="0.12009286880493164" />
+      <edge id="496" source="truck" target="customer" weight="0.12009286880493164" />
+      <edge id="497" source="bill" target="announces" weight="0.13843777775764465" />
+      <edge id="498" source="announces" target="system" weight="0.13843777775764465" />
+      <edge id="499" source="announces" target="announces" weight="0.13843777775764465" />
+      <edge id="500" source="announces" target="program" weight="0.13843777775764465" />
+      <edge id="501" source="announces" target="customer" weight="0.13843777775764465" />
+    </edges>
+  </graph>
+</gexf>
